@@ -40,8 +40,10 @@ Open TeletronincsAssessment.xcodeproj in Xcode.
 ```sh
 pod install
 ```
-- make sure you set the deploymentTarget for the `lottie-ios` to `ios 12`
+- Make sure you set the deploymentTarget for the `lottie-ios` to `ios 12`
 - Ensure you have the latest Xcode and iOS SDK installed.
+- Make sure to set the `User Script Sandboxing` to `No` in the `Build Settings` as shown below:
+<img src="https://github.com/lizan-prad/Feeds/assets/96415013/060b2446-52b3-4e72-96c8-7ede72c94404" alt="Build Settings" width="450" height="80">
 
 ### 4. Build and Run the Project
 Select the target device or simulator and press Cmd + R to build and run the project.
