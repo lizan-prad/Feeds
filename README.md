@@ -1,5 +1,9 @@
 # Feeds
 
+<img src="https://github.com/lizan-prad/Feeds/assets/96415013/70e04e5b-7190-4d81-9cdf-16cdb41dae45" alt="LaunchScreen" width="200" height="450">
+<img src="https://github.com/lizan-prad/Feeds/assets/96415013/df2f3f02-fd40-4e99-a2d5-36dfb5e852a6" alt="FeedsList" width="200" height="450">
+<img src="https://github.com/lizan-prad/Feeds/assets/96415013/e36426c7-e1ce-46fc-b58c-e426178a2533" alt="PostDetails" width="200" height="450">
+
 ## Overview
 
 Feeds is an iOS application that displays a list of posts fetched from a remote API. The app supports features such as infinite scrolling, image caching, and offline access through local caching. The project uses MVVM-C architecture, Combine framework for reactive programming, and Core Data for local storage.
