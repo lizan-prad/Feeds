@@ -37,8 +37,7 @@ Open TeletronincsAssessment.xcodeproj in Xcode.
 pod install
 ```
 - make sure you set the deploymentTarget for the `lottie-ios` to `ios 12`
-- 
-Ensure you have the latest Xcode and iOS SDK installed.
+- Ensure you have the latest Xcode and iOS SDK installed.
 
 ### 4. Build and Run the Project
 Select the target device or simulator and press Cmd + R to build and run the project.
