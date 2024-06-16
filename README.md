@@ -31,18 +31,23 @@ cd TeletronincsAssessment
 Open TeletronincsAssessment.xcodeproj in Xcode.
 
 ### 3. Install Dependencies
-There are no external dependencies for this project. Ensure you have the latest Xcode and iOS SDK installed.
+- Lottie-swift: Library for animations (added to `LaunchAnimationViewController`)
+- Build the Podfile before building the project by:
+```sh
+pod install
+```
+- make sure you set the deploymentTarget for the `lottie-ios` to `ios 12`
+- 
+Ensure you have the latest Xcode and iOS SDK installed.
 
 ### 4. Build and Run the Project
 Select the target device or simulator and press Cmd + R to build and run the project.
 
 ## Running Tests
+FYI: Don't forget to comment the `self.savePostsWithAlbumsAndPhotos(posts: posts)` in `PostListViewModel` before starting the UITests
 
 - Unit Tests
 Unit tests are located in the TeletronincsAssessmentTests target. To run the unit tests:
-
-FYI: Don't forget to comment the `self.savePostsWithAlbumsAndPhotos(posts: posts)` in `PostListViewModel` before starting the UITests
-
 - Select the TeletronincsAssessmentTests scheme.
 Press Cmd + U to run the tests.
 UI Tests
